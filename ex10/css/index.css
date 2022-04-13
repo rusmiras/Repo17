@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: 500px auto;
+}
+
+#left {
+    background-color: black;
+    width: 500px;
+    font-size: 12px;
+}
+#links{
+    margin-bottom: 0;
+    padding: 5px;
+}
+form{
+    margin-bottom: 30px;
+}
+#links a{
+    display: block;
+    text-align: center;
+    margin: 10px;
+    color:  rgb(14, 97, 192);
+    text-decoration: none;
+}
+.logo img {
+    width: 200px;
+}
+
+.logo {
+    margin: 40px auto;
+    text-align: center;
+}
+
+#right {
+    background: url(https://image.ibb.co/cO9Lxq/login-bg.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+#signin {
+    display: block;
+}
+
+#signin .secondary-btn {
+    margin-left: 100px;
+    width: 300px;
+}
+
+.hr-bar {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 0px;
+    padding-bottom: 20px;
+
+}
+
+#main-footer {
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-size: 10px;
+}
+
+#main-footer a {
+    color: white;
+}
+
+#showcase {
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.showcase-text {
+    font-weight: lighter;
+}
+
+.secondary-btn {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(113, 106, 106);
+    padding: 5px 100px; 
+    font-size: 12px;
+    width: 300px;
+}
+
+input {
+    display: block;
+    background-color: black;
+    width: 300px;
+    padding: 5px 85px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    border: 1px solid rgb(113, 106, 106);
+    background-color: none;
+}
+
+.primary-btn {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(14, 97, 192);
+    padding: 5px 95px;
+    margin-top: 10px;
+    margin-left: 100px;
+    font-size: 12px;
+    width: 300px;
+    border: none;
+}
+
+label {
+    color: white;
+    margin-left: 100px;
+    padding-top: 5px;
+}
