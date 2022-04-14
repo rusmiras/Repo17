@@ -31,7 +31,7 @@ var users = [
 function getUsers() {
     var output = "";
     users.forEach(user => {
-        output += user.firstName + " " + user.lastName + " is " + user.age + ", " + user.gender + "\n";   
+        output += user.firstName + " " + user.lastName + " is " + user.age + ", " + user.gender + "\n";
     });
     console.log(output);
     return output;
@@ -42,17 +42,17 @@ function findUser(lastName, gender) {
     try {
         var user = users.find(u => u.lastName === lastName && u.gender === gender);
         if (user) {
-            var iFindUser = user.firstName + " " + user.lastName + " is " + user.age + ", " + user.gender;   
+            var iFindUser = user.firstName + " " + user.lastName + " is " + user.age + ", " + user.gender;
         }
         else {
             throw "Cannot read property 'firstName' of undefined";
         }
+        console.log(iFindUser);
+        return iFindUser;
     } catch (err) {
         console.log(err);
         return err;
     }
-    console.log(iFindUser);
-    return iFindUser;
 }
 // findUser(lastName, gender) function ends here
 

@@ -36,8 +36,7 @@ var users = [
 function getUsers() {
     var output = "";
     users.forEach(user => {
-        output += `${user.id} - ${user.firstName} ${user.lastName} is ${user.age}, ${user.gender}\n`;
-       
+        output += `${user.id} - ${user.firstName} ${user.lastName} is ${user.age}, ${user.gender}\n`;  
     });
     console.log(output);
         return output;
@@ -53,12 +52,12 @@ function findUserById(id) {
         else {
             throw "Cannot read property 'id'";
         }
+        console.log(iFindUser);
+        return iFindUser;
     } catch (error) {
         console.log(error);
         return error;
     }
-    console.log(iFindUser);
-    return iFindUser;
 }
 // findUserById(id) function ends here
 // Only change code above this line
